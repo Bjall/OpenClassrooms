@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<title>Cours HTML</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style.css"/>
+		<link href="https://fonts.googleapis.com/css?family=Fascinate+Inline" rel="stylesheet">
+	</head>
+	
+	<body>
+		<header id="bandeau">
+			<img src="image/logo.png" width="128px" height="128px">
+			<p>Power Renters</p>
+		</header>
+		<nav>
+			<li><a href="index.html" title="Page d'accueil">Accueil</a></li>
+			<li><a href="liste.html" title="Page liste">Liste</a></li>
+			<li><a href="fiche.html" title="Page formulaire">Fiche</a></li>
+		</nav>
+		<h1 class="flash">6 véhicules disponibles :</h1>
+		<section>
+			<article>
+				<header>Zord Tigre</header>
+				<img class="vehicules" src="image/tigre.png" alt="zord tigre">
+				<p class="prix">30 € / jour</p>
+			</article>
+			<article>
+				<header>Zord Triceratops</header>
+				<img class="vehicules" src="image/triceratops.png" alt="zord triceratops">
+				<p class="prix">50 € / jour</p>
+			</article>
+			<article>
+				<header>Zord Mammouth</header>
+				<img class="vehicules" src="image/mammouth.png" alt="zord mammouth">
+				<p class="prix">80 € / jour</p>
+			</article>
+			<article>
+				<header>Zord Pterodactyle</header>
+				<img class="vehicules" src="image/pterodactyle.png" alt="zord pterodactyle">
+				<p class="prix">120 € / jour</p>
+			</article>
+			<article>
+				<header>Zord T-Rex</header>
+				<img class="vehicules" src="image/trex.png" alt="zord t-rex">
+				<p class="prix">250 € / jour</p>
+			</article>
+			<article>
+				<header>Megazord</header>
+				<img class="vehicules" src="image/megazord.png" alt="megazord">
+				<p class="prix">500 € / jour</p>
+			</article>
+		</section>
+	</body>
+	<footer>
+		<p style="font-weight:bold; font-size:1.5em;">Power Renters Company</p>
+		<p>114 Rue Lucien Faure</p>
+		<p>33 000 BORDEAUX</p>
+		<p>Tél. 05 56 43 13 13</p>
+	</footer>
+</html>
+	<script type="text/javascript">
+		var temp=-1;
+		temp=prompt('Veuillez saisir la température');
+		if(temp>=0&&temp<50){
+			if(temp<14){
+				alert('Mettez une petite laine');
+			}
+			else if(temp<21){
+				alert('Un tee-shirt suffira');
+			}
+			else if(temp<32){
+				alert('Un marcel ?');
+			}
+			else{
+				alert('Cherchez une piscine !');
+			}
+		}
+		else{
+			alert('Mauvaise saisie');
+			window.location.reload();
+		}
+	</script>

@@ -1,0 +1,182 @@
+html{
+	border:0;
+}
+
+body{
+	background-color:#F8FE85;
+	font-family: 'Fascinate Inline', cursive;
+}
+
+#bandeau{
+	background-color:#FF6464;
+	border-radius: 20px;
+	display: flex;
+	margin: auto;
+	width:1000px;
+}
+
+#bandeau p{
+	color:black;
+	font-size:5em;
+	margin:auto;
+}
+
+nav{
+	background-color:#FFBD67;
+	border-radius:15px;
+	display:flex;
+	justify-content:space-around;
+	list-style-type:none;
+	margin:auto;
+	margin-top: 10px;
+	text-align: justify;
+	width:1000px;
+}
+
+nav a{
+	color:black;
+	font-size: 2.5em;
+	padding-left:50px;
+	padding-right:50px;
+	text-decoration: none;
+}
+
+a:hover{
+	background-color:#5BE7A9;
+	border-radius: 10px;
+}
+
+section{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin:auto;
+	margin-top: 40px;
+	text-align: center;
+	width:1000px;
+}
+
+.flash {
+	color:black;
+	margin-top: 50px;
+	text-align: center;
+	text-decoration: underline;
+}
+
+
+.montableau{
+	border-collapse:collapse;
+	margin:auto;
+	margin-top: 40px;
+}
+
+.montableau caption{
+	color:#FF6464;
+	font-size: 1.5em;
+	margin-bottom: 20px;
+	text-decoration: underline;
+}
+
+.montableau th{
+	background-color:#FF6464;
+	border:solid 1px black;
+	color:black;
+	font-weight:bold;
+	width: 250px;
+}
+
+.montableau td{
+	background-color:#FFBD67;
+	border:solid 1px black;
+	text-align: center;
+}
+
+#foot{
+	background-color:#FF6464;
+	font-size:8px;
+	text-align:right;
+}
+
+article{
+	background-color:white;
+    box-shadow: 6px 6px 0px black;
+	margin:auto;
+	margin-top:15px;
+	margin-bottom:15px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	width:450px;
+	text-align: center;
+}
+
+.vehicules{
+	height:120px;
+	width:180px;
+}
+
+.prix{
+	color:#808F85;
+	font-size:1.5em;
+	font-weight: bold;
+}
+
+.formulaire{
+	margin:auto;
+	margin-top:50px;
+	text-align: left;
+	width:500px;
+}
+
+.formulaire fieldset{
+	border:none;
+	border-radius: 10px;
+	box-shadow: 3px 3px 0px black;
+}
+
+.formulaire input{
+	border:none;
+	border-radius: 8px;
+	box-shadow: 3px 3px 0px black;
+	margin-top:10px;
+	margin-bottom:10px;
+	width: 185px;
+}
+
+.formulaire select{
+	border:none;
+	border-radius: 8px;
+	box-shadow: 3px 3px 0px black;
+	margin-top:5px;
+	margin-bottom:10px;
+}
+
+.formulaire label{
+	display: block;
+	float:left;
+	width:180px;
+}
+
+#valider{
+	background-color:#5BE7A9;
+	border:none;
+	border-radius:8px;
+	color:black;
+	display: block;
+	font-weight: bold;
+	height: 25px;
+	margin:auto;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	width:100px;
+}
+
+footer{
+	background-color:#FF6464;
+	margin:auto;
+	text-align: center;
+	width:1000px;
+}
+
+footer p{
+	margin:0;
+}
